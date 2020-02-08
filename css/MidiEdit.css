@@ -1,0 +1,146 @@
+body {
+    color: rgba(255,255,255,0.05);
+    background-color: rgba(0, 0, 0, 1);
+  }
+
+  table {
+    border-width: 2px;
+    border-collapse: collapse;
+    text-align: right;
+    table-layout: fixed;
+  }
+
+  .leftradius{
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+  }
+
+  .rightradius{
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+
+  .fullradius{
+    border-radius: 10px;
+  }
+
+  .eight_td{
+    border-right-color: gray;
+  }
+
+  .notec td{
+    border-width: 2px;
+    border-style: solid;
+    padding: 2px;
+    width: 2.5em;
+    height:1.6em;
+    z-index:5;
+  }
+
+   #mytable{
+    margin-top: 20px;
+  }
+
+
+
+  .createnote{
+    display: block;
+    width: 40px;
+    height: 100%;
+    z-index: 100;
+    border-radius: 10px;
+    text-align: center;
+    background-color: rgb(60,0,220);
+    font-size: 0px;
+    position: relative;
+  }
+
+  .notec th {
+    border-radius: 10px;
+    padding: 2px;
+    width: 2.5em;
+    height: 1.6em;
+  }
+
+  th.white {
+    width: 100%;
+    color: black;
+    border-color: lightblue;
+    background-color: white;
+  }
+
+  th.black {
+    width: 100%;
+    color: white;
+    border-color: lightblue;
+    background-color: black;
+  }
+  .hover:hover{
+    background-color: blue;
+  }
+  .notec tr:hover{
+    background-color:rgba(100,100,100,0.3);
+  }
+  th.black:hover{
+    background-color: blue;
+  }
+  th.white:hover{
+    background-color: blue;
+    color:white;
+  }
+
+.tool-btn{
+  color:black;
+  box-shadow: 0px 0px 3px rgba(255,255,150,0.5);
+  text-shadow: 0px 0px 3px rgba(255,255,150,0.5);
+  outline: 1px outset;
+  outline-color: transparent;
+  outline-offset: 0px;
+  text-shadow: none;
+  transition: all 150ms;
+}
+.tool-btn:hover:not(:disabled) {
+  outline-color: rgba(255, 255, 255, .5);
+   outline-offset: 5px;
+}
+.tool-btn:disabled
+{
+  background-color: rgba(0,0,0,0.1);
+  color:white;
+}
+.tool-btn[id=export]
+{
+  float: right;
+}
+
+.tool-btn[id=uploadButton]
+{
+    float:right;
+}
+
+::-webkit-scrollbar-track
+{
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+  	border-radius: 10px;
+	background-color: transparent;
+}
+
+::-webkit-scrollbar
+{
+  padding: 15px;
+  position: absolute;
+  width: 12px;
+	background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb
+{
+  border-radius: 10px;
+	-webkit-box-shadow: inset 0 0 6px rgba(255,255,255,0.5);
+	background-color: transparent;
+}
+
+#scrollTable
+{
+  /*background-color:lightblue;*/
+}
